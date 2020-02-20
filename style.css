@@ -53,7 +53,7 @@ section {
 
 .intro-area {
     background-image: url(images/header-bg.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
