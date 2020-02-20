@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+p {
+    color: dimgray;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pink-highlight {
+    color: crimson;
+}
+
+.link-btn {
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg, fuchsia, crimson);
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+/* Into area */
+
+.intro-area {
+    background-image: url(images/header-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.intro-text {
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+
+/* Bio area */
+
+.biography-area {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio-text {
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+
+/* Work area */
+
+.work-area {
+    background-image: url(images/latest-work-bg.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 70px;
+}
+
+.single-work {
+    width: 30%;
+    float: left;
+    padding: 3% 1.6%;
+}
+
+
+/* Testimonial */
+
+.testimonial-area {
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-size: 100%;
+    background-position: left;
+}
+
+.testimonial {
+    padding-top: 10px;
+    margin-bottom: 75px;
+}
+
+.testimonial-area .quote {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.testimonial-area .quote::before {
+    content: '"';
+}
+
+.testimonial-area .quote::after {
+    content: '"';
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(54deg, crimson, fuchsia);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contact-info p {
+    color: floralwhite;
+}
+
+
+/* footer */
+
+footer p {
+    text-align: center;
+}
